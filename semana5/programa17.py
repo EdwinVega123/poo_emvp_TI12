@@ -58,3 +58,46 @@ objeto_alumno.setNombre("Dejah")
 print(objeto_alumno.getNombre())
 objeto_alumno.setMatricula("172212783")
 print(objeto_alumno.getMatricula())
+
+
+class Profesor(Persona):
+    __nomina = None
+    def __init__(self):
+       print("Profesor")
+    def getNomina(self):
+       return self._nomina
+
+    def setnomina(self,nomina):
+       self._nomina = nomina
+
+objeto_profesor = Profesor()
+#print(objeto_profesor.nomina)
+objeto_profesor.nomina = "5000$ al mes"
+print(objeto_profesor.nomina)
+
+
+class Coordinador:
+    __numnomina = None
+    __carrera_cordinador = None
+    def __init__(self):
+       print("Coordinador")
+    def getNumNomina(self):
+       return self._numnomina
+
+    def setNumNomina(self,numnomina):
+       self._numnomina = numnomina
+      
+    def getCarreraCor(self):
+       return self._carrera_cordinador
+
+    def setCarreraCor(self,carrera_cordinador):
+       self._carrera_cordinador = carrera_cordinador
+    
+objeto_coordinador = Coordinador()
+#print(objeto_coordinador.nomina)
+objeto_coordinador.numnomina = "Ing. Salvador"
+print(objeto_coordinador.numnomina)
+objeto_coordinador.setNumNomina("5000 $")
+print(objeto_coordinador.getNumNomina())
+objeto_coordinador.setCarreraCor("Ing En Tecnolgias de la informacion")
+print(objeto_coordinador.getCarreraCor())

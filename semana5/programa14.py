@@ -4,24 +4,24 @@
     Fecha: 13/02/2023
     Descripción: Crear un Clase Persona, imprimiendo su nombre y correo
 """
-class Persona:
-    __email = None
-    __nombre = None
-    def __init__(self):
-          print("Persona")
-    def setEmail(self,email):
-        self.__email = email
-    def setNombre(self,nombre):
-        self.__nombre = nombre
+class Persona: #Crea la Clase Persona
+    __email = None #Variable Privada_correo
+    __nombre = None #Variable privada_nombre
+    def __init__(self): #Constructor de la variable persona 
+          print("Persona") #Imprime Persona
+    def setEmail(self,email): #Constructor de la variable email
+        self.__email = email # Variable privada email
+    def setNombre(self,nombre): #Constructor de la variable nombre
+        self.__nombre = nombre #Variable Privada nombre
 
-    def getEmail(self):
-       return self.__email
-    def getNombre(self):
-       return self.__nombre
+    def getEmail(self): #Devuelve el valor email
+       return self.__email #Returna a email
+    def getNombre(self): #Devuelve el valor nombre
+       return self.__nombre #Returna el nombre 
 
 
-dejah = Persona()
-dejah.setNombre("Dejah")
-print(dejah.getNombre())
-dejah.setEmail("Dejah@utectulancingo.edu.mx")
-print(dejah.getEmail())
+dejah = Persona() #Crea una Clase
+dejah.setNombre("Dejah") #Guarda el nombre
+print(dejah.getNombre()) #Imprime Deja 
+dejah.setEmail("Dejah@utectulancingo.edu.mx") #Guarda el correo
+print(dejah.getEmail()) #Imprime el email 

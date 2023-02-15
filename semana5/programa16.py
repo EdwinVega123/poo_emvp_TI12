@@ -4,19 +4,18 @@
     Fecha: 14/02/2023
     Descripción: Crear un Clase persona y Alumno, imprimiendo su nombre, pelicula y correo
 """
-class Persona:
+class Persona: #Crea la clase Persona
+    __nombre = None #Variable Privada_nombre
+    def __init__(self): #Constructor de la variable Persona 
+         print("Persona")# Imprime Persona 
 
-    def __init__(self):
-         __nombre = None
-         print("Persona")
+class Alumno(Persona): # Crea la clase alumno
+    def __init__(self): #Constructor de la variable Alumno_Persona
+          super().__init__() # Llama a la Clase  alumno 
+          print("Alumno") #Imprime alumno 
 
-class Alumno(Persona):
-    def __init__(self):
-          super().__init__()
-          print("Alumno")
-
-objeto_persona = Persona()
-objeto_alumno = Alumno()
+objeto_persona = Persona() #Crea un objeto_persona
+objeto_alumno = Alumno()#Crea un objeto_alumno
 
 objeto_persona.nombre = "Dejah Thoris"
 print(objeto_persona.nombre)
