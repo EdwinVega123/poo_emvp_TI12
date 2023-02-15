@@ -1,7 +1,7 @@
 """
     Programa8
     Nombre: Edwin MVP
-    Fecha: 1/01/2023
+    Fecha: 1/02/2023
     Descripción:Comparar 2 numeros enteros e imprimir el numero mayor
 """
 numero1 = int(input("Dame el primer numero: "))  #variable para imprimir

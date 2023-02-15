@@ -1,7 +1,7 @@
 """
-    Programa8
+    Programa9
     Nombre: Edwin MVP
-    Fecha: 1/01/2023
+    Fecha: 1/02/2023
     Descripción:11 Programas para Comparar 2 numeros enteros e imprimir el numero mayor
 """
 n1 = int(input("N1"))
@@ -69,5 +69,3 @@ if n1 <= n2:
    print (None)
 else:
   print ("El mayor es", n1)
-
-if n1 <= n2
