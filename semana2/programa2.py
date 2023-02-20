@@ -11,4 +11,4 @@
 variable1 = " Hola " # variable para almacenar una cadena de caracteres
 variable2 = 619 # variable para almacenar una cadena de caracteres
 
-print(" {} {} ".format(variable1 , variable2)) 
+print(" {} {} ".format(variable1 , variable2)) #concateta e imprime Hola y 619

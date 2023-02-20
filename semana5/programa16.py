@@ -17,14 +17,14 @@ class Alumno(Persona): # Crea la clase alumno
 objeto_persona = Persona() #Crea un objeto_persona
 objeto_alumno = Alumno()#Crea un objeto_alumno
 
-objeto_persona.nombre = "Dejah Thoris"
-print(objeto_persona.nombre)
+objeto_persona.nombre = "Dejah Thoris" #Da el valor del nombre Persona
+print(objeto_persona.nombre) #Imprime el nombre 
 
-objeto_alumno.nombre = "John Carter"
-print(objeto_alumno.nombre)
+objeto_alumno.nombre = "John Carter" #Da el valor de nombre Alumno
+print(objeto_alumno.nombre)#Imrpime el nombre 
 
-objeto_alumno.email = "John@gmail.com.mx"
-print(objeto_alumno.email)
+objeto_alumno.email = "John@gmail.com.mx"#Da el valor de email
+print(objeto_alumno.email)#Da el valor del correo
 
-print(dir(objeto_persona))
-print(dir(objeto_alumno))
+print(dir(objeto_persona))#Muestra lo que hay dentro de la clase persona 
+print(dir(objeto_alumno))#Muestra lo que hay dentro de la clase alumno.

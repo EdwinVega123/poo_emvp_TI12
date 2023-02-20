@@ -4,32 +4,32 @@
     Fecha: 14/02/2023
     Descripción: Crear un Clase persona y Alumno, imprimiendo su nombre, pelicula y correo
 """
-class Persona:
-    __nombre = None
-    __edad = None
-    def __init__(self):
-       print("Persona")
+class Persona: # Crea la Clase Persona 
+    __nombre = None #Variable Privada 
+    __edad = None # Variable Privada 
+    def __init__(self): #Hace referencia a la clase / LLama a la clase 
+       print("Persona") #Imprime persona
 
-    def getNombre(self):
-       return self._nombre
+    def getNombre(self): #Se define una funcion para acceder a la variable privada y obtener un valor 
+       return self._nombre #Return la variable 
 
-    def setNombre(self,nombre):
-       self._nombre = nombre 
+    def setNombre(self,nombre): #Se define una funcion para acceder a la variable privada y llamarla
+       self._nombre = nombre  #returna nombre 
 
-    def getEdad(self):
-       return self._edad
+    def getEdad(self):  #Se define una funcion para acceder a la variable privada y obtener un valor 
+       return self._edad #Retorna edad 
 
-    def setEdad(self,edad):
-       self._edad = edad
+    def setEdad(self,edad): #Se define una funcion para acceder a la variable privada y llamarla
+       self._edad = edad #Retorna edad 
 
-objeto_persona = Persona()
+objeto_persona = Persona() 
 #print(objeto_persona.nombre)
-objeto_persona.nombre = "Hola"
-print(objeto_persona.nombre)
-objeto_persona.setNombre("Edwin")
-print(objeto_persona.getNombre())
-objeto_persona.setEdad("19")
-print(objeto_persona.getEdad())
+objeto_persona.nombre = "Hola"#Asigna una variable  una clase 
+print(objeto_persona.nombre)#Asigna una variable  una clase 
+objeto_persona.setNombre("Edwin")#Asigna una variable  una clase 
+print(objeto_persona.getNombre())#Asigna una variable  una clase 
+objeto_persona.setEdad("19")#Asigna una variable  una clase 
+print(objeto_persona.getEdad())#Asigna una variable  una clase 
 
 
 class Alumno(Persona):
@@ -50,14 +50,14 @@ class Alumno(Persona):
     def setMatricula(self,matricula):
        self._matricula = matricula
 
-objeto_alumno = Alumno()
+objeto_alumno = Alumno()#Asigna una variable  una clase 
 #print(objeto_alumno.nombre)
-objeto_alumno.nombre = "Hola"
-print(objeto_alumno.nombre)
-objeto_alumno.setNombre("Dejah")
-print(objeto_alumno.getNombre())
-objeto_alumno.setMatricula("172212783")
-print(objeto_alumno.getMatricula())
+objeto_alumno.nombre = "Hola"#Asigna una variable  una clase 
+print(objeto_alumno.nombre)#Asigna una variable  una clase 
+objeto_alumno.setNombre("Dejah")#Asigna una variable  una clase 
+print(objeto_alumno.getNombre())#Asigna una variable  una clase 
+objeto_alumno.setMatricula("172212783")#Asigna una variable  una clase 
+print(objeto_alumno.getMatricula())#Asigna una variable  una clase 
 
 
 class Profesor(Persona):
@@ -95,9 +95,9 @@ class Coordinador:
     
 objeto_coordinador = Coordinador()
 #print(objeto_coordinador.nomina)
-objeto_coordinador.numnomina = "Ing. Salvador"
-print(objeto_coordinador.numnomina)
-objeto_coordinador.setNumNomina("5000 $")
-print(objeto_coordinador.getNumNomina())
-objeto_coordinador.setCarreraCor("Ing En Tecnolgias de la informacion")
-print(objeto_coordinador.getCarreraCor())
+objeto_coordinador.numnomina = "Ing. Salvador"#Asigna una variable  una clase 
+print(objeto_coordinador.numnomina)#Asigna una variable  una clase 
+objeto_coordinador.setNumNomina("5000 $")#Asigna una variable  una clase 
+print(objeto_coordinador.getNumNomina())#Asigna una variable  una clase 
+objeto_coordinador.setCarreraCor("Ing En Tecnolgias de la informacion")#Asigna una variable  una clase 
+print(objeto_coordinador.getCarreraCor())#Asigna una variable  una clase 
